@@ -37,6 +37,12 @@ class Gradients {
 
   static LinearGradient byDesign =
       buildGradient(_beginAlignment, _endAlignment, const [Color(0xff009FFF), Color(0xffec2F4B)]);
+  
+  static LinearGradient lightBlue = buildGradient(_beginAlignment, _endAlignment, const [Color(0xff039be5),Color(0xff0277bd),]);
+  
+   static LinearGradient deebOrange = buildGradient(_beginAlignment, _endAlignment, const [ Color(0xffffb74d), Color(0xfffb8c00),]);
+  
+  
 
   static LinearGradient haze =
       buildGradient(_beginAlignment, _endAlignment, const [Color(0xffE8EDF4), Color(0xffF6F6F8)]);
